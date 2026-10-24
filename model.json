@@ -1,0 +1,1546 @@
+{
+  "algorithm": "TF-IDF word + bigram cosine nearest-example intent classifier",
+  "training_questions": 129,
+  "intent_count": 19,
+  "idf": {
+    "application": 3.3826278006675823,
+    "application_admissions": 5.174387269895637,
+    "admissions": 3.094945728215801,
+    "explain": 4.768922161787472,
+    "admissions_process": 5.174387269895637,
+    "explain_admissions": 5.174387269895637,
+    "process": 4.768922161787472,
+    "submit": 4.768922161787472,
+    "submit_application": 5.174387269895637,
+    "college": 3.469639177657212,
+    "steps_join": 5.174387269895637,
+    "join": 4.768922161787472,
+    "join_college": 5.174387269895637,
+    "steps": 5.174387269895637,
+    "application_form": 5.174387269895637,
+    "form": 5.174387269895637,
+    "admissions_application": 5.174387269895637,
+    "enroll": 5.174387269895637,
+    "enroll_college": 5.174387269895637,
+    "want": 5.174387269895637,
+    "want_enroll": 5.174387269895637,
+    "get_admissions": 5.174387269895637,
+    "get": 4.075774981227528,
+    "college_admissions": 5.174387269895637,
+    "application_online": 5.174387269895637,
+    "online_college": 5.174387269895637,
+    "online": 4.768922161787472,
+    "eligible": 4.258096538021482,
+    "eligible_admissions": 5.174387269895637,
+    "eligible_join": 5.174387269895637,
+    "require": 4.481240089335692,
+    "marks": 5.174387269895637,
+    "marks_require": 5.174387269895637,
+    "require_admissions": 4.768922161787472,
+    "minimum_percentage": 5.174387269895637,
+    "minimum": 5.174387269895637,
+    "percentage_eligible": 5.174387269895637,
+    "percentage": 4.768922161787472,
+    "entrance_exam": 5.174387269895637,
+    "need": 4.258096538021482,
+    "exam": 5.174387269895637,
+    "entrance": 5.174387269895637,
+    "need_entrance": 5.174387269895637,
+    "qualifications": 5.174387269895637,
+    "qualifications_need": 5.174387269895637,
+    "after_class": 5.174387269895637,
+    "12": 5.174387269895637,
+    "after": 4.481240089335692,
+    "class": 5.174387269895637,
+    "application_after": 5.174387269895637,
+    "class_12": 5.174387269895637,
+    "criteria": 5.174387269895637,
+    "admissions_eligible": 5.174387269895637,
+    "eligible_criteria": 5.174387269895637,
+    "document_needed": 5.174387269895637,
+    "document": 4.481240089335692,
+    "needed": 4.481240089335692,
+    "document_require": 5.174387269895637,
+    "certificates": 5.174387269895637,
+    "certificates_submit": 5.174387269895637,
+    "certificate": 5.174387269895637,
+    "transfer": 5.174387269895637,
+    "need_transfer": 5.174387269895637,
+    "transfer_certificate": 5.174387269895637,
+    "admissions_document": 5.174387269895637,
+    "list": 4.481240089335692,
+    "list_admissions": 5.174387269895637,
+    "paperwork_needed": 5.174387269895637,
+    "needed_application": 5.174387269895637,
+    "paperwork": 5.174387269895637,
+    "marksheets": 5.174387269895637,
+    "needed_admissions": 5.174387269895637,
+    "marksheets_needed": 5.174387269895637,
+    "admissions_date": 5.174387269895637,
+    "date": 4.075774981227528,
+    "date_application": 5.174387269895637,
+    "last": 4.768922161787472,
+    "last_date": 5.174387269895637,
+    "admissions_close": 5.174387269895637,
+    "close": 5.174387269895637,
+    "application_date": 5.174387269895637,
+    "open": 5.174387269895637,
+    "admissions_open": 5.174387269895637,
+    "opening": 5.174387269895637,
+    "admissions_opening": 5.174387269895637,
+    "opening_date": 5.174387269895637,
+    "closing_date": 5.174387269895637,
+    "application_closing": 5.174387269895637,
+    "closing": 5.174387269895637,
+    "courses": 3.302585092994046,
+    "available": 4.075774981227528,
+    "courses_available": 5.174387269895637,
+    "courses_offered": 5.174387269895637,
+    "offered": 4.768922161787472,
+    "list_courses": 5.174387269895637,
+    "study": 4.481240089335692,
+    "courses_study": 5.174387269895637,
+    "degrees_college": 5.174387269895637,
+    "college_offer": 4.768922161787472,
+    "degrees": 5.174387269895637,
+    "offer": 4.258096538021482,
+    "available_departments": 5.174387269895637,
+    "departments": 5.174387269895637,
+    "departments_courses": 5.174387269895637,
+    "computer": 4.768922161787472,
+    "science_available": 5.174387269895637,
+    "computer_science": 4.768922161787472,
+    "science": 4.768922161787472,
+    "engineering": 5.174387269895637,
+    "engineering_courses": 5.174387269895637,
+    "offer_engineering": 5.174387269895637,
+    "study_here": 5.174387269895637,
+    "here": 4.768922161787472,
+    "long": 4.768922161787472,
+    "long_courses": 5.174387269895637,
+    "duration": 4.481240089335692,
+    "courses_duration": 5.174387269895637,
+    "years_degree": 5.174387269895637,
+    "degree": 5.174387269895637,
+    "many": 4.258096538021482,
+    "many_years": 5.174387269895637,
+    "years": 4.768922161787472,
+    "semesters": 5.174387269895637,
+    "many_semesters": 5.174387269895637,
+    "duration_courses": 5.174387269895637,
+    "courses_years": 5.174387269895637,
+    "length_courses": 5.174387269895637,
+    "length": 5.174387269895637,
+    "find_syllabus": 5.174387269895637,
+    "syllabus": 4.258096538021482,
+    "find": 4.768922161787472,
+    "subjects": 4.768922161787472,
+    "subjects_study": 5.174387269895637,
+    "show_courses": 5.174387269895637,
+    "courses_syllabus": 5.174387269895637,
+    "show": 4.481240089335692,
+    "syllabus_computer": 5.174387269895637,
+    "subjects_courses": 5.174387269895637,
+    "download": 5.174387269895637,
+    "download_syllabus": 5.174387269895637,
+    "tuition_fees": 4.768922161787472,
+    "fees": 3.228477120840324,
+    "tuition": 4.481240089335692,
+    "much": 4.258096538021482,
+    "much_courses": 5.174387269895637,
+    "courses_fees": 5.174387269895637,
+    "structure": 5.174387269895637,
+    "show_fees": 5.174387269895637,
+    "fees_structure": 5.174387269895637,
+    "college_fees": 4.481240089335692,
+    "annual_college": 5.174387269895637,
+    "annual": 5.174387269895637,
+    "semester": 5.174387269895637,
+    "per": 5.174387269895637,
+    "pay": 4.258096538021482,
+    "per_semester": 5.174387269895637,
+    "pay_per": 5.174387269895637,
+    "much_pay": 5.174387269895637,
+    "total": 5.174387269895637,
+    "total_tuition": 5.174387269895637,
+    "fees_installments": 5.174387269895637,
+    "installments": 5.174387269895637,
+    "pay_fees": 4.768922161787472,
+    "pay_college": 5.174387269895637,
+    "methods": 5.174387269895637,
+    "payment_methods": 5.174387269895637,
+    "payment": 4.481240089335692,
+    "accepted": 5.174387269895637,
+    "methods_accepted": 5.174387269895637,
+    "fees_online": 5.174387269895637,
+    "installment_option": 5.174387269895637,
+    "installment": 5.174387269895637,
+    "option": 5.174387269895637,
+    "fees_payment": 4.768922161787472,
+    "payment_procedure": 5.174387269895637,
+    "procedure": 5.174387269895637,
+    "payment_due": 5.174387269895637,
+    "due": 5.174387269895637,
+    "scholarships_available": 5.174387269895637,
+    "scholarships": 4.258096538021482,
+    "aid": 5.174387269895637,
+    "financial": 4.768922161787472,
+    "get_financial": 5.174387269895637,
+    "financial_aid": 5.174387269895637,
+    "schemes": 5.174387269895637,
+    "schemes_offered": 5.174387269895637,
+    "scholarships_schemes": 5.174387269895637,
+    "merit_scholarships": 5.174387269895637,
+    "merit": 5.174387269895637,
+    "students": 3.921624301400269,
+    "concession": 5.174387269895637,
+    "fees_concession": 5.174387269895637,
+    "concession_students": 5.174387269895637,
+    "application_scholarships": 5.174387269895637,
+    "assistance": 4.768922161787472,
+    "assistance_tuition": 5.174387269895637,
+    "financial_assistance": 5.174387269895637,
+    "internships": 3.0343211063993665,
+    "get_internships": 5.174387269895637,
+    "college_provide": 5.174387269895637,
+    "provide": 4.768922161787472,
+    "internships_support": 5.174387269895637,
+    "provide_internships": 5.174387269895637,
+    "support": 5.174387269895637,
+    "find_internships": 5.174387269895637,
+    "application_internships": 5.174387269895637,
+    "summer_internships": 5.174387269895637,
+    "summer": 5.174387269895637,
+    "help_summer": 5.174387269895637,
+    "help": 4.258096538021482,
+    "opportunities": 4.481240089335692,
+    "opportunities_students": 5.174387269895637,
+    "internships_opportunities": 4.768922161787472,
+    "students_get": 5.174387269895637,
+    "industry": 5.174387269895637,
+    "help_students": 5.174387269895637,
+    "experience": 5.174387269895637,
+    "industry_experience": 5.174387269895637,
+    "get_industry": 5.174387269895637,
+    "compulsory": 5.174387269895637,
+    "internships_compulsory": 5.174387269895637,
+    "graduation": 4.481240089335692,
+    "mandatory": 5.174387269895637,
+    "mandatory_graduation": 5.174387269895637,
+    "internships_mandatory": 5.174387269895637,
+    "credits_need": 5.174387269895637,
+    "credits": 4.768922161787472,
+    "many_internships": 5.174387269895637,
+    "internships_credits": 5.174387269895637,
+    "long_internships": 5.174387269895637,
+    "internships_last": 5.174387269895637,
+    "internships_duration": 5.174387269895637,
+    "duration_require": 5.174387269895637,
+    "academic": 5.174387269895637,
+    "carry": 5.174387269895637,
+    "internships_carry": 5.174387269895637,
+    "carry_academic": 5.174387269895637,
+    "academic_credits": 5.174387269895637,
+    "paid": 4.481240089335692,
+    "internships_paid": 5.174387269895637,
+    "internships_stipend": 5.174387269895637,
+    "stipend": 4.768922161787472,
+    "receive": 5.174387269895637,
+    "receive_internships": 5.174387269895637,
+    "much_interns": 5.174387269895637,
+    "interns": 5.174387269895637,
+    "get_paid": 5.174387269895637,
+    "interns_get": 5.174387269895637,
+    "offer_salary": 5.174387269895637,
+    "internships_offer": 5.174387269895637,
+    "salary": 4.481240089335692,
+    "paid_internships": 5.174387269895637,
+    "stipend_guaranteed": 5.174387269895637,
+    "guaranteed": 5.174387269895637,
+    "placements": 3.469639177657212,
+    "work": 5.174387269895637,
+    "placements_work": 5.174387269895637,
+    "campus": 4.258096538021482,
+    "placements_process": 5.174387269895637,
+    "campus_placements": 5.174387269895637,
+    "offer_placements": 5.174387269895637,
+    "placements_assistance": 5.174387269895637,
+    "register": 5.174387269895637,
+    "register_placements": 5.174387269895637,
+    "recruitment": 5.174387269895637,
+    "explain_campus": 5.174387269895637,
+    "campus_recruitment": 5.174387269895637,
+    "help_prepare": 5.174387269895637,
+    "interviews": 5.174387269895637,
+    "prepare_job": 5.174387269895637,
+    "prepare": 5.174387269895637,
+    "job_interviews": 5.174387269895637,
+    "job": 4.768922161787472,
+    "placements_cell": 5.174387269895637,
+    "provide_training": 5.174387269895637,
+    "cell": 5.174387269895637,
+    "training": 5.174387269895637,
+    "cell_provide": 5.174387269895637,
+    "opportunities_after": 5.174387269895637,
+    "after_graduation": 4.768922161787472,
+    "job_opportunities": 5.174387269895637,
+    "company_recruit": 5.174387269895637,
+    "recruit": 5.174387269895637,
+    "recruit_here": 5.174387269895637,
+    "company": 3.921624301400269,
+    "campus_company": 5.174387269895637,
+    "list_placements": 5.174387269895637,
+    "placements_company": 5.174387269895637,
+    "company_visit": 5.174387269895637,
+    "visit_campus": 5.174387269895637,
+    "visit": 5.174387269895637,
+    "hire": 5.174387269895637,
+    "company_hire": 5.174387269895637,
+    "hire_students": 5.174387269895637,
+    "recruiting_company": 5.174387269895637,
+    "names": 5.174387269895637,
+    "company_names": 5.174387269895637,
+    "recruiting": 5.174387269895637,
+    "placements_package": 5.174387269895637,
+    "average": 5.174387269895637,
+    "package": 4.768922161787472,
+    "average_placements": 5.174387269895637,
+    "highest_salary": 5.174387269895637,
+    "salary_package": 5.174387269895637,
+    "highest": 5.174387269895637,
+    "placements_percentage": 5.174387269895637,
+    "many_students": 5.174387269895637,
+    "placed": 5.174387269895637,
+    "students_placed": 5.174387269895637,
+    "median": 5.174387269895637,
+    "salary_after": 5.174387269895637,
+    "median_salary": 5.174387269895637,
+    "placements_statistics": 5.174387269895637,
+    "statistics": 5.174387269895637,
+    "show_placements": 5.174387269895637,
+    "record": 5.174387269895637,
+    "placements_record": 5.174387269895637,
+    "hostel": 4.481240089335692,
+    "facilities_available": 5.174387269895637,
+    "facilities": 5.174387269895637,
+    "hostel_facilities": 5.174387269895637,
+    "provided": 5.174387269895637,
+    "accommodation_provided": 5.174387269895637,
+    "accommodation": 5.174387269895637,
+    "college_hostel": 5.174387269895637,
+    "stay": 5.174387269895637,
+    "students_stay": 5.174387269895637,
+    "hostel_availability": 5.174387269895637,
+    "availability": 5.174387269895637,
+    "student": 5.174387269895637,
+    "housing": 5.174387269895637,
+    "student_housing": 5.174387269895637,
+    "hi": 5.174387269895637,
+    "hello": 4.768922161787472,
+    "hey": 5.174387269895637,
+    "good_morning": 5.174387269895637,
+    "good": 4.768922161787472,
+    "morning": 5.174387269895637,
+    "good_afternoon": 5.174387269895637,
+    "afternoon": 5.174387269895637,
+    "thanks": 4.768922161787472,
+    "thank": 4.768922161787472,
+    "very": 5.174387269895637,
+    "very_much": 5.174387269895637,
+    "thank_very": 5.174387269895637,
+    "helpful": 5.174387269895637,
+    "thanks_help": 5.174387269895637
+  },
+  "vectors": [
+    [
+      {
+        "application": 0.48928548111808406,
+        "admissions": 0.44767325845473405,
+        "application_admissions": 0.7484573278628288
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "explain": 0.4575940216682538,
+        "admissions": 0.2969703875578511,
+        "process": 0.4575940216682538,
+        "explain_admissions": 0.4964997540687645,
+        "admissions_process": 0.4964997540687645
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "submit": 0.6108028527399368,
+        "application": 0.43324647379666215,
+        "submit_application": 0.6627347644627625
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "steps": 0.4822963503274506,
+        "join": 0.44450359697800196,
+        "college": 0.3233995109088465,
+        "steps_join": 0.4822963503274506,
+        "join_college": 0.4822963503274506
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "admissions": 0.30743594036392125,
+        "application": 0.3360127931545005,
+        "form": 0.5139969342998919,
+        "admissions_application": 0.5139969342998919,
+        "application_form": 0.5139969342998919
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "want": 0.47406542081710223,
+        "enroll": 0.47406542081710223,
+        "college": 0.317880334626122,
+        "want_enroll": 0.47406542081710223,
+        "enroll_college": 0.47406542081710223
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "get": 0.5600361506116415,
+        "admissions": 0.4252642748839626,
+        "get_admissions": 0.7109921283076994
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "application": 0.2899250265373423,
+        "online": 0.40874431530358807,
+        "college": 0.2973827716010441,
+        "admissions": 0.26526779629952557,
+        "application_online": 0.44349672944889423,
+        "online_college": 0.44349672944889423,
+        "college_admissions": 0.44349672944889423
+      },
+      "admission_process"
+    ],
+    [
+      {
+        "eligible": 0.5768721612276707,
+        "admissions": 0.41929252077215096,
+        "eligible_admissions": 0.7010080538945694
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "eligible": 0.5177106477526278,
+        "join": 0.5798181791829536,
+        "eligible_join": 0.6291157002432214
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "marks": 0.5026962034648512,
+        "require": 0.43535635471849377,
+        "admissions": 0.3006766572257786,
+        "marks_require": 0.5026962034648512,
+        "require_admissions": 0.46330491714399746
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "minimum": 0.470016661745106,
+        "percentage": 0.4331861450816399,
+        "eligible": 0.3867851816645366,
+        "minimum_percentage": 0.470016661745106,
+        "percentage_eligible": 0.470016661745106
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "need": 0.3805080756330202,
+        "entrance": 0.46238879862569543,
+        "exam": 0.46238879862569543,
+        "need_entrance": 0.46238879862569543,
+        "entrance_exam": 0.46238879862569543
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "qualifications": 0.6111672480671179,
+        "need": 0.5029405429870731,
+        "qualifications_need": 0.6111672480671179
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "application": 0.26302249443308595,
+        "after": 0.34844712924608545,
+        "class": 0.4023440730375829,
+        "12": 0.4023440730375829,
+        "application_after": 0.4023440730375829,
+        "after_class": 0.4023440730375829,
+        "class_12": 0.4023440730375829
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "admissions": 0.29776590494919836,
+        "eligible": 0.40967308649252254,
+        "criteria": 0.49782976610265584,
+        "admissions_eligible": 0.49782976610265584,
+        "eligible_criteria": 0.49782976610265584
+      },
+      "admission_eligibility"
+    ],
+    [
+      {
+        "document": 0.547726921683335,
+        "needed": 0.547726921683335,
+        "document_needed": 0.632447972980067
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "document": 0.44979446122415934,
+        "require": 0.44979446122415934,
+        "admissions": 0.3106482622195781,
+        "document_require": 0.5193675607264499,
+        "require_admissions": 0.47866990645866814
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "certificates": 0.5924091354564915,
+        "submit": 0.5459879416758073,
+        "certificates_submit": 0.5924091354564915
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "need": 0.3805080756330202,
+        "transfer": 0.46238879862569543,
+        "certificate": 0.46238879862569543,
+        "need_transfer": 0.46238879862569543,
+        "transfer_certificate": 0.46238879862569543
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "list": 0.44092881525152666,
+        "admissions": 0.30452524881617427,
+        "document": 0.44092881525152666,
+        "list_admissions": 0.5091305984692028,
+        "admissions_document": 0.5091305984692028
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "paperwork": 0.4892689593907741,
+        "needed": 0.4237277886109431,
+        "application": 0.3198474906715498,
+        "paperwork_needed": 0.4892689593907741,
+        "needed_application": 0.4892689593907741
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "marksheets": 0.49339647787598123,
+        "needed": 0.4273023956785269,
+        "admissions": 0.2951142312836181,
+        "marksheets_needed": 0.49339647787598123,
+        "needed_admissions": 0.49339647787598123
+      },
+      "admission_documents"
+    ],
+    [
+      {
+        "admissions": 0.4252642748839626,
+        "date": 0.5600361506116415,
+        "admissions_date": 0.7109921283076994
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "last": 0.4668569101341928,
+        "date": 0.3990007908673704,
+        "application": 0.33114467160054795,
+        "last_date": 0.5065501953497463,
+        "date_application": 0.5065501953497463
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "admissions": 0.3895332916745345,
+        "close": 0.6512541035099901,
+        "admissions_close": 0.6512541035099901
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "application": 0.45682666191902505,
+        "date": 0.5504367577892509,
+        "application_date": 0.6988052494324711
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "admissions": 0.3895332916745345,
+        "open": 0.6512541035099901,
+        "admissions_open": 0.6512541035099901
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "admissions": 0.29988224085721515,
+        "opening": 0.5013680322122779,
+        "date": 0.3949188909703108,
+        "admissions_opening": 0.5013680322122779,
+        "opening_date": 0.5013680322122779
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "application": 0.32492694304831893,
+        "closing": 0.4970389699462387,
+        "date": 0.39150896381260614,
+        "application_closing": 0.4970389699462387,
+        "closing_date": 0.4970389699462387
+      },
+      "admission_deadline"
+    ],
+    [
+      {
+        "courses": 0.4482093604774172,
+        "available": 0.5531425977974463,
+        "courses_available": 0.7022404400789782
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "list": 0.43265258415229174,
+        "courses": 0.31885637599893235,
+        "offered": 0.46042757267762213,
+        "list_courses": 0.49957422032635174,
+        "courses_offered": 0.49957422032635174
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "courses": 0.43453989458684816,
+        "study": 0.5896222326471333,
+        "courses_study": 0.680823547463409
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "degrees": 0.5014916710242591,
+        "college": 0.3362707617919843,
+        "offer": 0.41268653404793854,
+        "degrees_college": 0.5014916710242591,
+        "college_offer": 0.46219477189376623
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "available": 0.3924790797086801,
+        "departments": 0.49827057752175224,
+        "courses": 0.318024317811462,
+        "available_departments": 0.49827057752175224,
+        "departments_courses": 0.49827057752175224
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "computer": 0.4513991531031271,
+        "science": 0.4513991531031271,
+        "available": 0.38578976807527326,
+        "computer_science": 0.4513991531031271,
+        "science_available": 0.4897781830397977
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "offer": 0.40717739619232046,
+        "engineering": 0.4947970335181175,
+        "courses": 0.3158073065890889,
+        "offer_engineering": 0.4947970335181175,
+        "engineering_courses": 0.4947970335181175
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "study": 0.5371536585498558,
+        "here": 0.5716373002731419,
+        "study_here": 0.6202392635450762
+      },
+      "courses_offered"
+    ],
+    [
+      {
+        "long": 0.6135014649828879,
+        "courses": 0.4248634647505051,
+        "long_courses": 0.6656628191389741
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "courses": 0.43453989458684816,
+        "duration": 0.5896222326471333,
+        "courses_duration": 0.680823547463409
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "many": 0.3867851816645366,
+        "years": 0.4331861450816399,
+        "degree": 0.470016661745106,
+        "many_years": 0.470016661745106,
+        "years_degree": 0.470016661745106
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "many": 0.5029405429870731,
+        "semesters": 0.6111672480671179,
+        "many_semesters": 0.6111672480671179
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "duration": 0.5896222326471333,
+        "courses": 0.43453989458684816,
+        "duration_courses": 0.680823547463409
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "length": 0.4846841530648323,
+        "courses": 0.30935269728171017,
+        "years": 0.4467042914367501,
+        "length_courses": 0.4846841530648323,
+        "courses_years": 0.4846841530648323
+      },
+      "course_duration"
+    ],
+    [
+      {
+        "find": 0.5798181791829536,
+        "syllabus": 0.5177106477526278,
+        "find_syllabus": 0.6291157002432214
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "subjects": 0.5716373002731419,
+        "study": 0.5371536585498558,
+        "subjects_study": 0.6202392635450762
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "show": 0.44226190400402315,
+        "courses": 0.3259382541985993,
+        "syllabus": 0.4202394526505917,
+        "show_courses": 0.5106698861067865,
+        "courses_syllabus": 0.5106698861067865
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "syllabus": 0.40033157289987786,
+        "computer": 0.44835763891641317,
+        "science": 0.44835763891641317,
+        "syllabus_computer": 0.4864780720807544,
+        "computer_science": 0.44835763891641317
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "subjects": 0.6135014649828879,
+        "courses": 0.4248634647505051,
+        "subjects_courses": 0.6656628191389741
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "download": 0.6111672480671179,
+        "syllabus": 0.5029405429870731,
+        "download_syllabus": 0.6111672480671179
+      },
+      "course_syllabus"
+    ],
+    [
+      {
+        "tuition": 0.6141151929815539,
+        "fees": 0.4424348641394262,
+        "tuition_fees": 0.6535395326551838
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "much": 0.441520100578467,
+        "courses": 0.34244355180946834,
+        "fees": 0.3347593297570061,
+        "much_courses": 0.5365298713724783,
+        "courses_fees": 0.5365298713724783
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "show": 0.42567151098370976,
+        "fees": 0.3066719717773841,
+        "structure": 0.49151333195313457,
+        "show_fees": 0.49151333195313457,
+        "fees_structure": 0.49151333195313457
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "annual": 0.5278570809620364,
+        "college": 0.3539498519882907,
+        "fees": 0.32934807931256077,
+        "annual_college": 0.5278570809620364,
+        "college_fees": 0.457146747868855
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "much": 0.32645227842753644,
+        "pay": 0.32645227842753644,
+        "per": 0.3967008494618937,
+        "semester": 0.3967008494618937,
+        "much_pay": 0.3967008494618937,
+        "pay_per": 0.3967008494618937,
+        "per_semester": 0.3967008494618937
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "fees": 1.0
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "total": 0.5007049883631475,
+        "tuition": 0.433631877505093,
+        "fees": 0.3124069604580729,
+        "total_tuition": 0.5007049883631475,
+        "tuition_fees": 0.46146973370447253
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "college": 0.5319494859426145,
+        "fees": 0.49497560318883804,
+        "college_fees": 0.6870435915232993
+      },
+      "tuition_fees"
+    ],
+    [
+      {
+        "pay": 0.41585346372634907,
+        "fees": 0.31529895606513053,
+        "installments": 0.5053400855602612,
+        "pay_fees": 0.4657416245762589,
+        "fees_installments": 0.5053400855602612
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "pay": 0.4553433160693351,
+        "college": 0.37102893149825183,
+        "fees": 0.345240053843513,
+        "pay_college": 0.553327675186059,
+        "college_fees": 0.47920536891563154
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "payment": 0.3973663726972761,
+        "methods": 0.4588300245868315,
+        "accepted": 0.4588300245868315,
+        "payment_methods": 0.4588300245868315,
+        "methods_accepted": 0.4588300245868315
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "pay": 0.4240871775696404,
+        "fees": 0.32154173532700314,
+        "online": 0.4749631018420921,
+        "pay_fees": 0.4749631018420921,
+        "fees_online": 0.5153455947623814
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "installment": 0.5773502691896257,
+        "option": 0.5773502691896257,
+        "installment_option": 0.5773502691896257
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "fees": 0.3124069604580729,
+        "payment": 0.433631877505093,
+        "procedure": 0.5007049883631475,
+        "fees_payment": 0.46146973370447253,
+        "payment_procedure": 0.5007049883631475
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "fees": 0.3124069604580729,
+        "payment": 0.433631877505093,
+        "due": 0.5007049883631475,
+        "fees_payment": 0.46146973370447253,
+        "payment_due": 0.5007049883631475
+      },
+      "fee_payment"
+    ],
+    [
+      {
+        "scholarships": 0.5428949114545225,
+        "available": 0.5196494437794529,
+        "scholarships_available": 0.6597193120536123
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "get": 0.3725667609548377,
+        "financial": 0.4359273736274293,
+        "aid": 0.4729909560636131,
+        "get_financial": 0.4729909560636131,
+        "financial_aid": 0.4729909560636131
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "scholarships": 0.3867851816645366,
+        "schemes": 0.470016661745106,
+        "offered": 0.4331861450816399,
+        "scholarships_schemes": 0.470016661745106,
+        "schemes_offered": 0.470016661745106
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "merit": 0.6111672480671179,
+        "scholarships": 0.5029405429870731,
+        "merit_scholarships": 0.6111672480671179
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "fees": 0.31339261188711104,
+        "concession": 0.5022847245719151,
+        "students": 0.38067734001345666,
+        "fees_concession": 0.5022847245719151,
+        "concession_students": 0.5022847245719151
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "application": 0.4506253042015597,
+        "scholarships": 0.5672530827621207,
+        "application_scholarships": 0.6893190664054798
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "financial": 0.43695471323863105,
+        "assistance": 0.43695471323863105,
+        "tuition": 0.41059570942026163,
+        "financial_assistance": 0.47410564253273957,
+        "assistance_tuition": 0.47410564253273957
+      },
+      "scholarships"
+    ],
+    [
+      {
+        "get": 0.5620110632741412,
+        "internships": 0.41840436215864735,
+        "get_internships": 0.7134993724482767
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "college": 0.2822755576203094,
+        "provide": 0.3879798715483046,
+        "internships": 0.24685987171908055,
+        "support": 0.420966843284107,
+        "college_provide": 0.420966843284107,
+        "provide_internships": 0.420966843284107,
+        "internships_support": 0.420966843284107
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "find": 0.622318044604082,
+        "internships": 0.39596217207444984,
+        "find_internships": 0.6752290053354014
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "application": 0.49119862453258917,
+        "internships": 0.440620263795923,
+        "application_internships": 0.7513838528939145
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "help": 0.4103794544215969,
+        "summer": 0.49868813584308525,
+        "internships": 0.2924365450771812,
+        "help_summer": 0.49868813584308525,
+        "summer_internships": 0.49868813584308525
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "internships": 0.31265937721889625,
+        "opportunities": 0.4617513065921509,
+        "students": 0.40408795535066816,
+        "internships_opportunities": 0.4913943451684302,
+        "opportunities_students": 0.5331738614884824
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "help": 0.2933006290307508,
+        "students": 0.2701241890953988,
+        "get": 0.2807421943367409,
+        "industry": 0.3564153671852339,
+        "experience": 0.3564153671852339,
+        "help_students": 0.3564153671852339,
+        "students_get": 0.3564153671852339,
+        "get_industry": 0.3564153671852339,
+        "industry_experience": 0.3564153671852339
+      },
+      "internship_support"
+    ],
+    [
+      {
+        "internships": 0.38303198965489477,
+        "compulsory": 0.653179337893129,
+        "internships_compulsory": 0.653179337893129
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "internships": 0.28982346246004803,
+        "mandatory": 0.49423208094475446,
+        "graduation": 0.42802606357875234,
+        "internships_mandatory": 0.49423208094475446,
+        "mandatory_graduation": 0.49423208094475446
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "many": 0.34938205655863014,
+        "internships": 0.24896977768044212,
+        "credits": 0.3912959270828372,
+        "need": 0.34938205655863014,
+        "many_internships": 0.4245648377495317,
+        "internships_credits": 0.4245648377495317,
+        "credits_need": 0.4245648377495317
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "long": 0.4583787950043036,
+        "internships": 0.29165258002159256,
+        "last": 0.4583787950043036,
+        "long_internships": 0.49735125070092756,
+        "internships_last": 0.49735125070092756
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "internships": 0.29909861210239747,
+        "duration": 0.4417240773862644,
+        "require": 0.4417240773862644,
+        "internships_duration": 0.5100488697923594,
+        "duration_require": 0.5100488697923594
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "internships": 0.23563597084122423,
+        "carry": 0.40182687497341424,
+        "academic": 0.40182687497341424,
+        "credits": 0.37033971160437873,
+        "internships_carry": 0.40182687497341424,
+        "carry_academic": 0.40182687497341424,
+        "academic_credits": 0.40182687497341424
+      },
+      "internship_requirement"
+    ],
+    [
+      {
+        "internships": 0.40525068244634044,
+        "paid": 0.5984948661429408,
+        "internships_paid": 0.6910685780567067
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "receive": 0.488339765099371,
+        "internships": 0.28636813965511637,
+        "stipend": 0.45007344962632645,
+        "receive_internships": 0.488339765099371,
+        "internships_stipend": 0.488339765099371
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "much": 0.33462825380418365,
+        "interns": 0.4066361955796125,
+        "get": 0.32030026860327293,
+        "paid": 0.35216429044806724,
+        "much_interns": 0.4066361955796125,
+        "interns_get": 0.4066361955796125,
+        "get_paid": 0.4066361955796125
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "internships": 0.3019732226696197,
+        "offer": 0.42376238009645284,
+        "salary": 0.44596944880984135,
+        "internships_offer": 0.5149509048121773,
+        "offer_salary": 0.5149509048121773
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "paid": 0.4506387576009091,
+        "internships": 0.30513488817617224,
+        "opportunities": 0.4506387576009091,
+        "paid_internships": 0.5203424507874108,
+        "internships_opportunities": 0.4795684041115345
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "stipend": 0.5459879416758073,
+        "guaranteed": 0.5924091354564915,
+        "stipend_guaranteed": 0.5924091354564915
+      },
+      "internship_stipend"
+    ],
+    [
+      {
+        "placements": 0.42842573598889255,
+        "work": 0.6389254216034825,
+        "placements_work": 0.6389254216034825
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "campus": 0.41268653404793854,
+        "placements": 0.3362707617919843,
+        "process": 0.46219477189376623,
+        "campus_placements": 0.5014916710242591,
+        "placements_process": 0.5014916710242591
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "college": 0.29194592016021154,
+        "offer": 0.35828910393013486,
+        "placements": 0.29194592016021154,
+        "assistance": 0.40127151481946394,
+        "college_offer": 0.40127151481946394,
+        "offer_placements": 0.43538857368880346,
+        "placements_assistance": 0.43538857368880346
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "register": 0.6389254216034825,
+        "placements": 0.42842573598889255,
+        "register_placements": 0.6389254216034825
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "explain": 0.4331861450816399,
+        "campus": 0.3867851816645366,
+        "recruitment": 0.470016661745106,
+        "explain_campus": 0.470016661745106,
+        "campus_recruitment": 0.470016661745106
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "help": 0.3221162236289357,
+        "prepare": 0.3914317282592367,
+        "job": 0.36075912883109257,
+        "interviews": 0.3914317282592367,
+        "help_prepare": 0.3914317282592367,
+        "prepare_job": 0.3914317282592367,
+        "job_interviews": 0.3914317282592367
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "placements": 0.2671701953699091,
+        "cell": 0.39843971866580313,
+        "provide": 0.3672179729446571,
+        "training": 0.39843971866580313,
+        "placements_cell": 0.39843971866580313,
+        "cell_provide": 0.39843971866580313,
+        "provide_training": 0.39843971866580313
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "job": 0.37786952698310755,
+        "opportunities": 0.355074797912057,
+        "after": 0.355074797912057,
+        "graduation": 0.355074797912057,
+        "job_opportunities": 0.4099968931700952,
+        "opportunities_after": 0.4099968931700952,
+        "after_graduation": 0.37786952698310755
+      },
+      "placement_process"
+    ],
+    [
+      {
+        "company": 0.3603365699923414,
+        "recruit": 0.4754460951245322,
+        "here": 0.4381901279338195,
+        "company_recruit": 0.4754460951245322,
+        "recruit_here": 0.4754460951245322
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "campus": 0.5484178303513164,
+        "company": 0.5050821820555169,
+        "campus_company": 0.6664306961138513
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "list": 0.44579498933171086,
+        "placements": 0.3451606540496418,
+        "company": 0.3901242577397529,
+        "list_placements": 0.5147494603716307,
+        "placements_company": 0.5147494603716307
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "company": 0.3675624863670848,
+        "visit": 0.48498033064256796,
+        "campus": 0.39909905447786154,
+        "company_visit": 0.48498033064256796,
+        "visit_campus": 0.48498033064256796
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "company": 0.3720881593305564,
+        "hire": 0.49095172993278985,
+        "students": 0.3720881593305564,
+        "company_hire": 0.49095172993278985,
+        "hire_students": 0.49095172993278985
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "recruiting": 0.4675552642407906,
+        "company": 0.35435617607556663,
+        "names": 0.4675552642407906,
+        "recruiting_company": 0.4675552642407906,
+        "company_names": 0.4675552642407906
+      },
+      "placement_companies"
+    ],
+    [
+      {
+        "average": 0.4822963503274506,
+        "placements": 0.3233995109088465,
+        "package": 0.44450359697800196,
+        "average_placements": 0.4822963503274506,
+        "placements_package": 0.4822963503274506
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "highest": 0.46628027398845906,
+        "salary": 0.40381860646964235,
+        "package": 0.42974254075743856,
+        "highest_salary": 0.46628027398845906,
+        "salary_package": 0.46628027398845906
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "placements": 0.4422334542428996,
+        "percentage": 0.6078375337134695,
+        "placements_percentage": 0.6595173269577684
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "many": 0.39909905447786154,
+        "students": 0.3675624863670848,
+        "placed": 0.48498033064256796,
+        "many_students": 0.48498033064256796,
+        "students_placed": 0.48498033064256796
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "median": 0.4049044317141527,
+        "salary": 0.3506645090721522,
+        "after": 0.3506645090721522,
+        "graduation": 0.3506645090721522,
+        "median_salary": 0.4049044317141527,
+        "salary_after": 0.4049044317141527,
+        "after_graduation": 0.37317611092656594
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "show": 0.42260289194476675,
+        "placements": 0.32720397060898476,
+        "statistics": 0.4879700664786842,
+        "show_placements": 0.4879700664786842,
+        "placements_statistics": 0.4879700664786842
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "placements": 0.42842573598889255,
+        "record": 0.6389254216034825,
+        "placements_record": 0.6389254216034825
+      },
+      "placement_statistics"
+    ],
+    [
+      {
+        "hostel": 0.4142619277437024,
+        "facilities": 0.47833894247723824,
+        "available": 0.3767792769664268,
+        "hostel_facilities": 0.47833894247723824,
+        "facilities_available": 0.47833894247723824
+      },
+      "hostel"
+    ],
+    [
+      {
+        "accommodation": 0.5773502691896257,
+        "provided": 0.5773502691896257,
+        "accommodation_provided": 0.5773502691896257
+      },
+      "hostel"
+    ],
+    [
+      {
+        "college": 0.45211412727354555,
+        "hostel": 0.5839315987494872,
+        "college_hostel": 0.6742527003294448
+      },
+      "hostel"
+    ],
+    [
+      {
+        "students": 0.47235561006719745,
+        "stay": 0.6232496199910779,
+        "students_stay": 0.6232496199910779
+      },
+      "hostel"
+    ],
+    [
+      {
+        "hostel": 0.5222405335421981,
+        "availability": 0.6030194130894794,
+        "hostel_availability": 0.6030194130894794
+      },
+      "hostel"
+    ],
+    [
+      {
+        "student": 0.5773502691896257,
+        "housing": 0.5773502691896257,
+        "student_housing": 0.5773502691896257
+      },
+      "hostel"
+    ],
+    [
+      {
+        "hi": 1.0
+      },
+      "greeting"
+    ],
+    [
+      {
+        "hello": 1.0
+      },
+      "greeting"
+    ],
+    [
+      {
+        "hey": 1.0
+      },
+      "greeting"
+    ],
+    [
+      {
+        "good": 0.5459879416758073,
+        "morning": 0.5924091354564915,
+        "good_morning": 0.5924091354564915
+      },
+      "greeting"
+    ],
+    [
+      {
+        "good": 0.5459879416758073,
+        "afternoon": 0.5924091354564915,
+        "good_afternoon": 0.5924091354564915
+      },
+      "greeting"
+    ],
+    [
+      {
+        "hello": 1.0
+      },
+      "greeting"
+    ],
+    [
+      {
+        "thanks": 1.0
+      },
+      "thanks"
+    ],
+    [
+      {
+        "thank": 1.0
+      },
+      "thanks"
+    ],
+    [
+      {
+        "thank": 0.4331861450816399,
+        "very": 0.470016661745106,
+        "much": 0.3867851816645366,
+        "thank_very": 0.470016661745106,
+        "very_much": 0.470016661745106
+      },
+      "thanks"
+    ],
+    [
+      {
+        "helpful": 1.0
+      },
+      "thanks"
+    ],
+    [
+      {
+        "thanks": 0.5798181791829536,
+        "help": 0.5177106477526278,
+        "thanks_help": 0.6291157002432214
+      },
+      "thanks"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#1f3933"><meta name="description" content="CampusGuide helps students find answers about admissions, courses, fees, internships, and placements."><title>CampusGuide · Student help, simplified</title><link rel="icon" href="/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"><script src="/chat.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="CampusGuide home"><img class="logo" src="/logo.svg" alt=""><span>CampusGuide<small>YOUR STUDENT COMPANION</small></span></a>
+  <button class="new-chat" id="new-chat"><span>＋</span> New conversation</button>
+  <p class="nav-label">EXPLORE TOPICS</p>
+  <nav aria-label="Question topics">
+    <button data-question="How do I apply for admission?"><span>01</span> Admissions <b>↗</b></button>
+    <button data-question="What courses are available?"><span>02</span> Courses <b>↗</b></button>
+    <button data-question="What are the tuition fees?"><span>03</span> Fees & scholarships <b>↗</b></button>
+    <button data-question="Can I get an internship?"><span>04</span> Internships <b>↗</b></button>
+    <button data-question="How do placements work?"><span>05</span> Placements <b>↗</b></button>
+  </nav>
+  <div class="sidebar-bottom"><div class="demo-card"><span class="mini-dot"></span><strong id="college">Sample College</strong><p id="data-note">Demo information. Confirm details with your college before making decisions.</p></div><p class="project-label">AI & NLP MINI PROJECT <span>v1.0</span></p></div>
+</aside>
+<main>
+  <header><span>Student help desk</span><span class="status" id="status">Connecting…</span></header>
+  <section class="workspace">
+    <section id="welcome" class="welcome">
+      <div class="eyebrow"><span></span> A LITTLE GUIDANCE GOES A LONG WAY</div>
+      <h1>Your next chapter.<br><em>Let’s figure it out.</em></h1>
+      <p class="intro">From your first application to your first opportunity.<br>Ask a question, and find your next step.</p>
+      <div class="topic-grid">
+        <button data-question="How do I apply for admission?"><span class="card-top"><span class="card-icon">↗</span><span class="card-number">01</span></span><strong>Start your journey</strong><span>Applications & admission requirements</span><span class="card-link">Explore admissions ↗</span></button>
+        <button data-question="What courses are available?"><span class="card-top"><span class="card-icon">▤</span><span class="card-number">02</span></span><strong>Find your direction</strong><span>Courses, curriculum & duration</span><span class="card-link">Discover courses ↗</span></button>
+        <button data-question="What are the tuition fees?"><span class="card-top"><span class="card-icon">₹</span><span class="card-number">03</span></span><strong>Plan with clarity</strong><span>Fees, scholarships & payment options</span><span class="card-link">Understand fees ↗</span></button>
+        <button data-question="How do placements work?"><span class="card-top"><span class="card-icon">✧</span><span class="card-number">04</span></span><strong>Think beyond campus</strong><span>Internships & placement guidance</span><span class="card-link">Explore opportunities ↗</span></button>
+      </div>
+    </section>
+    <section id="conversation" class="conversation" aria-label="Chat conversation" aria-live="polite" aria-relevant="additions" hidden></section>
+    <div class="composer-area"><div class="suggestions" id="suggestions" aria-label="Suggested questions"></div>
+      <form id="chat-form"><label class="sr-only" for="question">Your question</label><textarea id="question" rows="1" maxlength="500" placeholder="Ask anything about your college journey…" required></textarea><button id="send" type="submit" aria-label="Send question">↑</button></form>
+      <div class="composer-footer"><span id="footer-note">Sample FAQ answers · verify with your college</span><span>Enter to send <span class="key">↵</span></span></div>
+    </div>
+  </section>
+</main>
+</body></html>

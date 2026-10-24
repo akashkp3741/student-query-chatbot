@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">CampusGuide</title>
+  <desc id="desc">A dark green rounded square with a light green compass mark.</desc>
+  <rect width="48" height="48" rx="14" fill="#1f3933"/>
+  <path d="M14 31.5 19 16l15-5-5 15-15 5Z" fill="#bddd93"/>
+  <path d="m19 16 10 10" stroke="#f5f7ed" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="3" fill="#1f3933"/>
+</svg>
