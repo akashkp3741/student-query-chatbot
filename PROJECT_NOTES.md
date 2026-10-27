@@ -1,5 +1,7 @@
 # AI Chatbot for Student Queries
 
+**Project owner:** Nayana K C
+
 ## Abstract
 
 CampusGuide is a browser-based FAQ chatbot designed to help students find information about admissions, courses, fees, internships, and placements. It normalizes questions, represents training examples with TF-IDF features, identifies the closest intent through cosine similarity, and retrieves a curated response. A fallback handles questions that do not match confidently. The submitted implementation uses an explicitly labeled sample dataset and runs entirely on a local computer.

@@ -1,7 +1,11 @@
 <!doctype html>
+<!-- CampusGuide student query chatbot. Project owner: Nayana K C.
+     The page talks to the Python API through /chat.js (GET /api/info, POST /api/chat).
+     Layout is responsive: see the media queries in /style.css. -->
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#1f3933"><meta name="description" content="CampusGuide helps students find answers about admissions, courses, fees, internships, and placements."><title>CampusGuide · Student help, simplified</title><link rel="icon" href="/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"><script src="/chat.js" defer></script></head>
 <body>
+<!-- Sidebar: brand (SVG logo), new chat button, topic shortcuts. Collapses to a top bar on phones. -->
 <aside class="sidebar">
   <a class="brand" href="/" aria-label="CampusGuide home"><img class="logo" src="/logo.svg" alt=""><span>CampusGuide<small>YOUR STUDENT COMPANION</small></span></a>
   <button class="new-chat" id="new-chat"><span>＋</span> New conversation</button>
@@ -15,9 +19,11 @@
   </nav>
   <div class="sidebar-bottom"><div class="demo-card"><span class="mini-dot"></span><strong id="college">Sample College</strong><p id="data-note">Demo information. Confirm details with your college before making decisions.</p></div><p class="project-label">AI & NLP MINI PROJECT <span>v1.0</span></p></div>
 </aside>
+<!-- Main column: status header, welcome screen, conversation and message composer. -->
 <main>
   <header><span>Student help desk</span><span class="status" id="status">Connecting…</span></header>
   <section class="workspace">
+    <!-- Welcome screen with topic cards; hidden after the first question. -->
     <section id="welcome" class="welcome">
       <div class="eyebrow"><span></span> A LITTLE GUIDANCE GOES A LONG WAY</div>
       <h1>Your next chapter.<br><em>Let’s figure it out.</em></h1>
@@ -29,7 +35,9 @@
         <button data-question="How do placements work?"><span class="card-top"><span class="card-icon">✧</span><span class="card-number">04</span></span><strong>Think beyond campus</strong><span>Internships & placement guidance</span><span class="card-link">Explore opportunities ↗</span></button>
       </div>
     </section>
+    <!-- Chat messages are appended here by chat.js (aria-live announces new replies). -->
     <section id="conversation" class="conversation" aria-label="Chat conversation" aria-live="polite" aria-relevant="additions" hidden></section>
+    <!-- Composer: suggestion chips, input form (Enter to send) and footer note. -->
     <div class="composer-area"><div class="suggestions" id="suggestions" aria-label="Suggested questions"></div>
       <form id="chat-form"><label class="sr-only" for="question">Your question</label><textarea id="question" rows="1" maxlength="500" placeholder="Ask anything about your college journey…" required></textarea><button id="send" type="submit" aria-label="Send question">↑</button></form>
       <div class="composer-footer"><span id="footer-note">Sample FAQ answers · verify with your college</span><span>Enter to send <span class="key">↵</span></span></div>

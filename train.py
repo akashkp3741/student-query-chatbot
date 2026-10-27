@@ -1,6 +1,9 @@
 """Export the TF-IDF model for inspection. Runtime rebuilds from the FAQ source.
 
+Project owner: Nayana K C
+
 The generated JSON is useful for teaching and inspection; editing data/faqs.json and restarting remains the source-of-truth workflow.
+Usage: python train.py
 """
 from model import Chatbot, ROOT
 

@@ -1,5 +1,7 @@
 # CampusGuide — Student Query Chatbot
 
+**Project owner:** Nayana K C
+
 CampusGuide is a small, explainable student-support chatbot. It combines a responsive browser interface with a Python standard-library HTTP API and a deterministic TF-IDF nearest-example classifier. The project is designed for a classroom demo or minor project: answers come from an editable FAQ dataset and the fallback avoids inventing official college facts.
 
 ## Features
@@ -115,6 +117,17 @@ start.bat              Windows launcher
 ## Security and deployment notes
 
 This demo intentionally serves only allow-listed static files, limits request size, sets no-store and basic security headers, and does not log question text. It is not a production deployment. A public release would need HTTPS, a production WSGI/ASGI server, rate limiting, structured monitoring, authenticated content administration, secure secrets handling, and a maintained official knowledge base. Never add passwords, private student records, or confidential documents to `data/faqs.json`.
+
+## Project owner
+
+This project is owned and maintained by **Nayana K C**. The GitHub repository, local Git identity, and PowerShell commands below should all use the same name.
+
+Set the Git identity once in PowerShell (use the e-mail address of the GitHub account):
+
+```powershell
+git config --global user.name "Nayana K C"
+git config --global user.email "your-github-email@example.com"
+```
 
 ## License
 
